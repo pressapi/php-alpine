@@ -1,4 +1,4 @@
-FROM php:8.1.3-fpm-alpine
+FROM php:8.1.8-fpm-alpine
 
 ENV COMPOSER_ALLOW_SUPERUSER=1 \
     COMPOSER_MEMORY_LIMIT=-1 \
